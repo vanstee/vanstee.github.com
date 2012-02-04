@@ -1,1 +1,10 @@
-html, body { background-image: url('/cardboard.png'); }
+html { background-image: url('paper.png'); }
+#card { width: 400px; height: 225px; margin: 200px auto 0 auto; }
+#card .card { width: 400px; height: 225px; }
+#card .card .front { background-color: #f9f9f9; }
+#card .card .back  { background-color: #f9f9f9; }
+#card .card p { text-align: center; -webkit-margin-before: 0; -webkit-margin-after: 0; font-size: 24px; font-family: "Helvetica Neue"; font-weight: bold; color: #333333; text-rendering: optimizelegibility; text-shadow: 0 1px 0 rgba(255, 255, 255, 1); }
+#card .card a { text-decoration: none; color: #08C; }
+#card .card a:hover { text-decoration: underline; color: #08C; }
+#card .card div.name    { margin: 95px 0; }
+#card .card div.twitter { margin: 95px 0; }
