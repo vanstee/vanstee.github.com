@@ -1,4 +1,4 @@
-@font-face { font-family: Din; src: ulr('Din.otf'); }
+@font-face { font-family: Din; src: url('Din.otf'); }
 
 html { background-image: url('paper.png'); }
 body { width: 900px; margin: 300px auto; -webkit-font-smoothing: antialiased; font-family: Helvetica; color: #333333 }
