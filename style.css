@@ -14,7 +14,7 @@ a:hover { text-decoration: underline; }
 @media only screen and (max-width: 900px),
        only screen and (max-device-width: 480px),
        only screen and (min-device-width: 640px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
-  body { width: 220px; margin: 1em auto; }
+  body { width: 220px; min-height: 480px; margin: 1em auto; }
   .header { float: none; width: 160px; padding: 1.75em; }
   h1 { font-size: 31px; }
   h1:first-child { letter-spacing: 2px; }
