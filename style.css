@@ -1,7 +1,7 @@
 @font-face { font-family: Din; src: url('Din.otf'); }
 
 html { background-image: url('paper.png'); }
-body { width: 1000px; margin: 300px auto; -webkit-font-smoothing: antialiased; font-family: Helvetica; color: #333333 }
+body { width: 900px; margin: 300px auto; padding: 2em; -webkit-font-smoothing: antialiased; font-family: Helvetica; color: #333333; }
 .header { float: left; padding: 1em; background-color: #f5474b; }
 .header a:hover { text-decoration: none; }
 h1 { font: bold 24px Din, Helvetica, sans-serif; color: #fefdfb; text-transform: uppercase; margin: 0; }
@@ -10,3 +10,12 @@ h1:first-child { letter-spacing: 1.5px; }
 p { font-size: 24px; font-weight: lighter; }
 a { color: #47b6f5; text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+@media only screen and (max-width: 900px) {
+  body { width: 300px; margin: 2em auto; }
+  .header { float: none; width: 230px; padding: 2em; }
+  h1 { font-size: 48px; }
+  h1:first-child { letter-spacing: 2px; }
+  .section { float: none; width: 230px; margin: 2em 32px; }
+  p { font-size: 26px; line-height: 48px; text-align: center; }
+}
