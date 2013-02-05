@@ -1,6 +1,6 @@
-@font-face { font-family: Din; src: url('Din.otf'); }
+@font-face { font-family: Din; src: url('/stylesheets/fonts/din.otf'); }
 
-html { background-image: url('paper.png'); }
+html { background-image: url('/stylesheets/images/paper.png'); }
 body { width: 900px; margin: 300px auto; padding: 2em; -webkit-font-smoothing: antialiased; font-family: Helvetica; color: #333333; }
 .header { float: left; padding: 1em; background-color: #f5474b; }
 .header a:hover { text-decoration: none; }
