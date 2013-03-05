@@ -2,12 +2,13 @@ doctype html
 html
   head
     meta charset="utf-8"
-    title Van Stee
+    title Unix Directories
     link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css" media="screen"
     link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css" media="screen"
     link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css"
     link href="/stylesheets/stylesheet.css" rel="stylesheet" type="text/css" media="screen"
     script type="text/javascript" src="//google-analytics.com/ga.js"
+    script type="text/javascript" src="//d3js.org/d3.v3.min.js"
     javascript:
       _gaq.push(['_setAccount', 'UA-36354560-1']);
       _gaq.push(['_trackPageview']);
@@ -26,9 +27,9 @@ html
       h1 Unix Directories
     div.article
       p.date 3 March 2013
-      h2 If you've spent any time working with Unix, you've probably come across a directory name that you didn't understand.
+      h2 If you've spent any time on a Unix system, you've probably come across a directory name that you didn't understand.
       p Here's the list of most common directory names and a little bit about each of them.
-      h2 clear="all"
+      h2
         | /bin
         span.note Binaries
       p
@@ -47,22 +48,22 @@ html
         | /dev
         span.note Device
       p
-        ' Special, device related files. Here you can find file descriptors,
+        ' Special, device related files. This is where file descriptors,
         code null
         '  and
         code urandom
-        ' .
+        '  live.
       h2
         | /etc
         span.note Etcetera
       p
-        ' Configuration files such as:
+        ' Configuration files and should not include any executable programs. This is where
         code motd
         ' ,
         code passwd
         ' , and
         code profile
-        ' . Should not include any executable programs.
+        '  live.
       h2
         | /home
         span.note Home
@@ -83,20 +84,20 @@ html
         | /sbin
         span.note System Binaries
       p
-        ' Similar to
+        ' Commands like
         code
           | /bin
-        '  but holds binaries which are only used by administrators. Commands like
+        '  which are only used by administrators. This is where
         code ifconfig
         ' ,
         code mount
         ' , and
         code shutdown
-        '  can be found here.
+        '  live.
       h2
         | /tmp
         span.note Temporary
-      p Temporary space for use by programs. Files in this directory are not required to be preserved after the program that created them has finished executing.
+      p Files that are temporarily used by other programs. Files in this directory are not required to be preserved after the program that created them has finished executing.
       h2
         | /usr
         span.note User
@@ -104,9 +105,9 @@ html
       h2
         | /var
         span.note Variable
-      p Variable data files, such as lock files, log files, and temporary files that need to be preserved.
+      p Variable data files. This is where lock files, log files, and temporary files that need to be preserved.
       p
-        ' To find out more about the specific directory structure of your file system, checkout the
+        ' To find out more about the specific directory structure on your file system, checkout the
         code hier
         '  manpage. You can also read through the
         a href="http://www.pathname.com/fhs/pub/fhs-2.3.pdf" Filesystem Hierarchy Standard

@@ -2,12 +2,13 @@ doctype html
 html
   head
     meta charset="utf-8"
-    title Info
+    title Notes
     link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css" media="screen"
     link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css" media="screen"
     link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css"
     link href="/stylesheets/stylesheet.css" rel="stylesheet" type="text/css" media="screen"
     script type="text/javascript" src="//google-analytics.com/ga.js"
+    script type="text/javascript" src="//d3js.org/d3.v3.min.js"
     javascript:
       _gaq.push(['_setAccount', 'UA-36354560-1']);
       _gaq.push(['_trackPageview']);
@@ -15,29 +16,18 @@ html
   body
     div.navigation
       .logo
-        a.me class="" href="/" V
+        a href="/" V
       ul
         li
           a href="/notes.html" Notes
         li
           a href="/info.html" Info
       div.clearfix
-    div.header
-      h1 style="font-size: 8em" Hi, I’m Patrick.
-    div.article
-      p
-        ' I
-        a href="https://github.com/vanstee"
-          | handcraft software
-        '  at
-        a href="https://www.bignerdranch.com"
-          | Big Nerd Ranch
-        |  in Atlanta, GA.
-      p
-        ' Send me cat pictures on
-        a href="https://twitter.com/vanstee"
-          | Twitter
-        '  or come hang out with me at the
-        a href="http://meetup.com/atlantaruby"
-          | Atlanta Ruby Users Group
-        | .
+    h1 Fieldnotes
+    div.articles
+      ul
+        li
+          a href="/unix-directories.html"
+            h2 Unix Directories
+            p.date 3 March 2013
+            p If you've spent any time on a Unix system, you've probably come across a directory name that you didn't understand.
