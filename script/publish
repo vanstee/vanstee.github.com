@@ -15,7 +15,7 @@ fi
 stasis
 
 # Create commit with generated files
-git add -A public/
+git add -fA public/
 tree=$(git write-tree --missing-ok --prefix=public/)
 
 # Apply commit to $DEFAULT_BRANCH
