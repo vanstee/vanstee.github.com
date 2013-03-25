@@ -6,7 +6,7 @@ body {
   width: 900px;
   margin: 50px auto;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #222224; }
 
 .navigation {
@@ -72,15 +72,15 @@ h1 {
 
 h2 {
   font-size: 2.4em;
-  font-weight: 600; }
+  font-weight: 700; }
   h2 span.note {
     margin: 0 0 0 20px;
-    font-weight: 300; }
+    font-weight: 400; }
 
 p {
-  font-size: 1.6em;
-  font-weight: 300;
-  text-height: 1.8em; }
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.8em; }
 
 a {
   color: #47b6f5;
