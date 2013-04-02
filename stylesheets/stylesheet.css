@@ -70,6 +70,72 @@ h1 {
       background-color: #fffcfc;
       text-decoration: none; }
 
+.resume {
+  width: 700px;
+  margin: 0 auto 50px auto; }
+  .resume h2 {
+    font-size: 2.4em;
+    font-weight: 700; }
+  .resume h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 2.4em;
+    font-weight: 300; }
+  .resume ul {
+    list-style: none;
+    margin: 0;
+    -webkit-padding-start: 0; }
+    .resume ul li p.position {
+      font-weight: 700; }
+  .resume ul.history li {
+    margin: 50px 0;
+    padding: 50px;
+    background-color: white; }
+    .resume ul.history li h4 {
+      font-size: 1.5em;
+      font-weight: 700; }
+    .resume ul.history li ul {
+      margin: 0 0 0 15px;
+      list-style-type: disc;
+      list-style-position: outside; }
+      .resume ul.history li ul li {
+        margin: 20px;
+        padding: 0;
+        font-size: 1.5em; }
+  .resume ul.opensource li {
+    width: 325px;
+    margin: 0 50px 50px 0;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top; }
+    .resume ul.opensource li a {
+      display: block;
+      padding: 40px 50px;
+      background-color: white;
+      color: #222224; }
+      .resume ul.opensource li a h3 {
+        font-size: 2em;
+        margin-bottom: 10px; }
+      .resume ul.opensource li a p {
+        margin: 0;
+        font-size: 1.3em; }
+  .resume ul.opensource li:nth-child(even) {
+    margin: 0 0 50px 0; }
+  .resume ul.opensource li.wide {
+    width: 700px; }
+  .resume ul.knowledge li {
+    margin: 0 0 50px 0;
+    padding: 40px 50px;
+    overflow: hidden;
+    vertical-align: top;
+    background-color: white; }
+    .resume ul.knowledge li h3 {
+      font-size: 2em;
+      margin-bottom: 0; }
+    .resume ul.knowledge li span {
+      float: right;
+      font-size: 2em; }
+
 h2 {
   font-size: 2.4em;
   font-weight: 700; }
