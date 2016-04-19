@@ -1,2 +1,0 @@
-ignore /\/script*/
-ignore /\.gitignore/
