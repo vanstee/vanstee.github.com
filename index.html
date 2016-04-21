@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="measure mx-auto p3">
+  {% include about.html %}
+
+  <hr class="border gray my3">
+
+  <h1>
+    Notes
+  </h1>
+
+  <ul class="list-reset">
+    {% for post in site.posts %}
+      <li class="my2">
+        <a class="block" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

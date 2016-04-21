@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="measure mx-auto p3">
+  <a href="/index.html">
+    Notes
+  </a>
+
+  <h1 class="mt3 mb0">
+    {{ page.title }}
+  </h1>
+
+  <h5 class="caps gray mt1 mb3">
+    <date>
+      {{ page.date | date: "%d %B %Y" }}
+    </date>
+  </h5>
+
+  {{ content }}
+
+  <hr class="border gray my3">
+
+  {% include about.html %}
+</div>
