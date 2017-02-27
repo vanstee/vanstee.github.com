@@ -27,7 +27,7 @@ who care about it.
 
 The sweet spot between my interests and experience is when I have the autonomy
 to push forward to build what customers want, with an engineering culture that
-promotes high-quality, mantainable code, while still tackling complex problems,
+promotes high-quality, maintainable code, while still tackling complex problems,
 both business and engineering related.
 
 But, I also have my programming hobby interests. I've always loved reading
