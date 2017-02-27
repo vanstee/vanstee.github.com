@@ -31,7 +31,7 @@ promotes high-quality, mantainable code, while still tackling complex problems,
 both business and engineering related.
 
 But, I also have my programming hobby interests. I've always loved reading
-about distrubited computing, things like Raft, MapReduce, WebRTC,
+about distributed computing, things like Raft, MapReduce, WebRTC,
 Erlang/Elixir, and CRDTs. Also, I really enjoy building software for
 developers, not only because it's nice to build a product when you're one of
 the users, but it also typically involves more interesting low-level problems
