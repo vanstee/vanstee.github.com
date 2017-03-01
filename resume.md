@@ -14,28 +14,23 @@ title: Résumé
 
 # Focus
 
-Whether it's writing software, wireframing, or talking to users, **I've always
-focused on product.** Here's what I'd look for in my ideal position:
+I've been writing software for over 10 years. Most of that time has been spent
+building web applications, working with distributed systems, and thinking about
+product direction. But, in general, I love solving hard and unique problems,
+learning about how everything works throughout the entire stack, and, even more
+so, seeing how systems fail.
 
-* **Given significant control over product direction**
-* On a team of happy developers with strong engineering practices
-* Working on an open source product or developer tool
+Aside from the things I've focused on at work, I also have my programming hobby
+interests. I've always loved reading about distributed computing, things like
+Raft, MapReduce, WebRTC, Erlang/Elixir, and CRDTs. And I really enjoy building
+software for developers, not only because it's nice to build a product when
+you're one of the users, but it typically involves more interesting low-level
+problems to deal with.
 
-I definitely have opinions about programming languages and choice of tools, but
-it has always been more important for me to work on a product that has users
-who care about it.
-
-The sweet spot between my interests and experience is when I have the autonomy
-to push forward to build what customers want, with an engineering culture that
-promotes high-quality, maintainable code, while still tackling complex problems,
-both business and engineering related.
-
-But, I also have my programming hobby interests. I've always loved reading
-about distributed computing, things like Raft, MapReduce, WebRTC,
-Erlang/Elixir, and CRDTs. Also, I really enjoy building software for
-developers, not only because it's nice to build a product when you're one of
-the users, but it also typically involves more interesting low-level problems
-to learn about and solve.
+The sweet spot between my interests and experience would be working on the
+backend of a product or supporting infrastructure, with the resources to
+research and solve complex problems, on a team of happy developers with an
+engineering culture that promotes high-quality, maintainable code.
 
 {:.border .gray .my3}
 * * *

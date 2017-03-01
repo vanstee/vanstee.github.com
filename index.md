@@ -9,16 +9,16 @@ I'm currently writing software at [Operable](https://operable.io) from Atlanta,
 GA. Previously at [Assembly](http://assemblymade.com) and
 [Big Nerd Ranch](https://www.bignerdranch.com).
 
-Whether it's writing software, wireframing, or talking to users, **I've always
-focused on product.** Here's what I'd look for in my ideal position:
+I've been writing software for over 10 years. Most of that time has been spent
+building web applications, working with distributed systems, and thinking about
+product direction. But, in general, I love solving hard and unique problems,
+learning about how everything works throughout the entire stack, and, even more
+so, seeing how systems fail.
 
-* **Given significant control over product direction**
-* On a team of happy developers with strong engineering practices
-* Working on an open source product or developer tool
-
-I definitely have opinions about programming languages and choice of tools, but
-it has always been more important for me to work on a product that has users
-who care about it.
+The sweet spot between my interests and experience would be working on the
+backend of a product or supporting infrastructure, with the resources to
+research and solve complex problems, on a team of happy developers with an
+engineering culture that promotes high-quality, maintainable code.
 
 But, career stuff aside, here's what I do in my free time:
 
@@ -27,6 +27,5 @@ But, career stuff aside, here's what I do in my free time:
 * Build electronics (synthesizers, mechanical keyboards)
 * Brew and drink unhealthy amounts of fancy coffee
 
-If you're looking for help with your product, want to hear how great it is to
-live in Atlanta, or just want to reach out,
-[shoot me an email](mailto:patrick@vanstee.me?subject=Hai).
+Feel free to [shoot me an email](mailto:patrick@vanstee.me?subject=Hai) for any
+reason.
