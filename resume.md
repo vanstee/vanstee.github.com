@@ -62,7 +62,7 @@ support installations, and fix bugs.
   view documentation for bundles
 * Wrote a fully spec compliant, simple parser-combinator
   [Mustache parser](https://github.com/operable/fumanchu) 
-* Built enhancements for and helped maintained
+* Built enhancements for and helped maintain
   [Relay](https://github.com/operable/go-relay), our command executor, written
   in Golang which interfaces with Docker
 
