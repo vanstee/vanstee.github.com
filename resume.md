@@ -14,32 +14,54 @@ title: Résumé
 
 # Focus
 
-I've been writing software for over 10 years. Most of that time has been spent
-building web applications, working with distributed systems, and thinking about
-product direction. But, in general, I love solving hard and unique problems,
-learning about how everything works throughout the entire stack, and, even more
-so, seeing how systems fail.
-
-Aside from the things I've focused on at work, I also have my programming hobby
-interests. I've always loved reading about distributed computing, things like
-Raft, MapReduce, WebRTC, Erlang/Elixir, and CRDTs. And I really enjoy building
-software for developers, not only because it's nice to build a product when
-you're one of the users, but it typically involves more interesting low-level
-problems to deal with.
+I've been writing software for over 12 years. Most of that time has been spent
+building web applications, working with distributed systems, managing
+infrastructure, and thinking about product direction. But, in general, I love
+solving hard and unique problems, learning about how everything works
+throughout the entire stack, and, even more so, seeing how systems fail.
 
 The sweet spot between my interests and experience would be working on the
-backend of a product or supporting infrastructure, with the resources to
-research and solve complex problems, on a team of happy developers with an
-engineering culture that promotes high-quality, maintainable code.
+backend or infrastructure side of a product as part of a team of happy
+developers with an engineering culture that promotes high-quality, maintainable
+code. Better yet, providing product direction and system design for technical,
+developer-focused products would be an ideal fit.
 
 {:.border .gray .my3}
 * * *
 
 # Work History
 
+## [Salesforce](https://salesforce.com) &mdash; Lead Software Engineer
+
+Spring 2017 - Today
+
+Designed and built internal tools to build and deploy code, manage
+infrastructure, automate manual workflows and increase developer productivity.
+Lead a team of developers, planned future projects, set priorities, interviewed
+and hired team members and continuously pushed to improve all of our tooling
+and process along the way, not only to help our team but for the entire
+organization and other teams across Salesforce.
+
+### Projects
+
+* Built and supported Terraserver, a Terraform as a Service product, to allow
+  anyone with access the ability to make approved changes to infrastructure;
+  written in Golang as a GRPC server, with a CLI client
+* Helped plan and implement a migration from our existing data centers to AWS
+  (~2000 servers), by defining all of our resources in modularaized Terraform
+  code and helping to move towards a cloud-native architecture
+* Reworked and migrated our entire build system (~100 application pipelines) to
+  Buildkite with docker, docker-compose, buildkit, and a custom Golang cli for
+  common actions
+* Managed the path to production for over 150 developers (Build Service, Deploy
+  Service, Compliance Service, Artifactory, GitHub Enterprise, Chatbots, and a
+  whole slew of other tools)
+* Migrated all of our internal applications to Heroku's Container Runtime and
+  helped integrate building and deploying containers from our deployment system
+
 ## [Operable](https://operable.io) &mdash; Senior Software Developer
 
-Spring 2015 - Today
+Spring 2015 - Spring 2017
 
 Developed a chatbot built for enterprise companies and real world devops
 workflows. Worked with users to define new features, build integrations,
