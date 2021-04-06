@@ -10,7 +10,7 @@ Atlanta, GA. Previously at [Operable](https://operable.io),
 [Assembly](http://assemblymade.com), and
 [Big Nerd Ranch](https://www.bignerdranch.com).
 
-I've been writing software for over 12 years. Most of that time has been spent
+I've been writing software for over 14 years. Most of that time has been spent
 building web applications, working with distributed systems, managing
 infrastructure, and thinking about product direction. But, in general, I love
 solving hard and unique problems, learning about how everything works

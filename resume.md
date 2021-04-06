@@ -14,7 +14,7 @@ title: Résumé
 
 # Focus
 
-I've been writing software for over 12 years. Most of that time has been spent
+I've been writing software for over 14 years. Most of that time has been spent
 building web applications, working with distributed systems, managing
 infrastructure, and thinking about product direction. But, in general, I love
 solving hard and unique problems, learning about how everything works
@@ -36,26 +36,30 @@ developer-focused products would be an ideal fit.
 Spring 2017 - Today
 
 Designed and built internal tools to build and deploy code, manage
-infrastructure, automate manual workflows and increase developer productivity.
+infrastructure, automate manual workflows, and increase developer productivity.
 Lead a team of developers, planned future projects, set priorities, interviewed
-and hired team members and continuously pushed to improve all of our tooling
+and hired team members, and continuously pushed to improve all of our tooling
 and process along the way, not only to help our team but for the entire
 organization and other teams across Salesforce.
 
 ### Projects
 
+* Developed and rolled out a Patching Automation Service to manage the
+  application lifecycle and safely apply RPM upgrades to traditional mutable
+  infrastructure written in Go as a HTTP server and CLI client, greatly
+  reducing the manual effort required to keep our servers patched.
 * Built and supported Terraserver, a Terraform as a Service product, to allow
   anyone with access the ability to make approved changes to infrastructure;
-  written in Golang as a GRPC server, with a CLI client
+  written in Go as a gRPC server, with a CLI client
 * Helped plan and implement a migration from our existing data centers to AWS
   (~2000 servers), by defining all of our resources in modularaized Terraform
   code and helping to move towards a cloud-native architecture
-* Reworked and migrated our entire build system (~100 application pipelines) to
-  Buildkite with docker, docker-compose, buildkit, and a custom Golang cli for
+* Planned and migrated our entire build system (~100 application pipelines) to
+  Buildkite with Docker, docker-compose, Buildkit, and a custom Go CLI for
   common actions
-* Managed the path to production for over 150 developers (Build Service, Deploy
-  Service, Compliance Service, Artifactory, GitHub Enterprise, Chatbots, and a
-  whole slew of other tools)
+* Built and managed the path to production for over 150 developers (Build
+  Service, Deploy Service, Compliance Service, Artifactory, GitHub Enterprise,
+  Chatbots, and a whole slew of other tools)
 * Migrated all of our internal applications to Heroku's Container Runtime and
   helped integrate building and deploying containers from our deployment system
 
@@ -184,6 +188,7 @@ other researchers and presented a few lectures to Computer Science students.
 * [Grocer](https://github.com/grocer/grocer/commits/master?author=vanstee) &mdash; Core Team
 * [Fumanchu](https://github.com/operable/fumanchu/commits/master?author=vanstee) &mdash; Author
 * [Hovercraft](https://github.com/vanstee/hovercraft/commits/master?author=vanstee) &mdash; Author
+* [Buildx](https://github.com/docker/buildx/commits?author=vanstee) &mdash; Contributor
 * [Elixir](https://github.com/elixir-lang/elixir/commits/master?author=vanstee) &mdash; Contributor
 * [RSpec](https://github.com/rspec/rspec-core/commits/master?author=vanstee) &mdash; Contributor
 * [Sunspot](https://github.com/sunspot/sunspot/commits/master?author=vanstee) &mdash; Contributor
