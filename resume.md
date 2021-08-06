@@ -31,7 +31,7 @@ developer-focused products would be an ideal fit.
 
 # Work History
 
-## [Salesforce](https://salesforce.com) &mdash; Lead Software Engineer
+## [Salesforce](https://salesforce.com) &mdash; Principal Software Engineer
 
 Spring 2017 - Today
 
