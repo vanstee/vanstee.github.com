@@ -14,7 +14,7 @@ title: Résumé
 
 # Focus
 
-I've been writing software for over 14 years. Most of that time has been spent
+I've been writing software for over 17 years. Most of that time has been spent
 building web applications, working with distributed systems, managing
 infrastructure, and thinking about product direction. But, in general, I love
 solving hard and unique problems, learning about how everything works
@@ -31,9 +31,41 @@ developer-focused products would be an ideal fit.
 
 # Work History
 
+## [Block](https://block.xyz) &mdash; Staff Software Engineer
+
+Winter 2021 - Today
+
+Developed and managed a compute platform relied on by the entire company.
+Migrated all applications from datacenters to our Kubernetes-based platform in
+the cloud. Provided technical leadership for all compute teams and the larger
+platform organization, helping to guide direction that supported developer
+velocity, improved reliability, allowed us to scale to thousands of
+applications in the cloud, and consolidated all services onto a unified
+platform.
+
+### Projects
+
+* Operated as the Compute Tech Lead, consolidating over 6 different internal
+  compute offerings in to a unified Kubernetes-based platform. Brought together
+  a team of 27 engineers to work together on designing and merging platforms
+  with minimal developer impact.
+* Planned, designed, and implemented migration tooling and necessary project
+  management structure to migrate over 1000 applications from P2 (datacenter
+  platform) to SKI (Kubernetes-based cloud platform).
+* Scaled our Kubernetes platform from 1,000 to over 70,000 pods, running in
+  over 4 regions, used by over 1,000 developers.
+* Designed and implemented Playpen -- developer tooling to provide rapid
+  iteration and testing in a remote cluster by building and syncing local
+  changes and running them in-cluster. Brought the inner-loop iteration time
+  from 20 minutes to under 1 minute.
+* Grew the team to double the size, implemented planning and reporting
+  processes to better organize our work with other teams across the org, and
+  fulfilled an engineering manager role for six months while hiring a
+  replacement.
+
 ## [Salesforce](https://salesforce.com) &mdash; Principal Software Engineer
 
-Spring 2017 - Today
+Spring 2017 - Winter 2021
 
 Designed and built internal tools to build and deploy code, manage
 infrastructure, automate manual workflows, and increase developer productivity.
